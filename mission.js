@@ -9,7 +9,23 @@ Team Member:
 
 Create a function that will sum up only even numbers from 0 - 50.
 */
-
+function addEven(){
+    var evenNumbers= [];
+    var oddNumbers = [];
+    for(i = 0; i<50; i++){
+        if(i%2===0){
+            evenNumbers.push(i);
+        }else{
+            oddNumbers.push(i);
+    }
+    }
+    var sum = 0
+    for(i = 0; i<evenNumbers.length; i++){
+        sum += evenNumbers[i]
+    }
+    return sum;
+}
+console.log(addEven());
 
  /*Mission 2: Jess
  Team Member: 
