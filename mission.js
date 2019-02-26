@@ -9,7 +9,23 @@ Team Member:
 
 Create a function that will sum up only even numbers from 0 - 50.
 */
-
+function addEven(){
+    var evenNumbers= [];
+    var oddNumbers = [];
+    for(i = 0; i<50; i++){
+        if(i%2===0){
+            evenNumbers.push(i);
+        }else{
+            oddNumbers.push(i);
+    }
+    }
+    var sum = 0
+    for(i = 0; i<evenNumbers.length; i++){
+        sum += evenNumbers[i]
+    }
+    return sum;
+}
+console.log(addEven());
 
  /*Mission 2: Jess
  Team Member: 
@@ -46,8 +62,11 @@ Create a function that will sum up only even numbers from 0 - 50.
 
  Create a function that will multiply two numbers.
  */
-
-
+function multiply(num1,num2){
+    var sum = num1*num2;
+    return sum
+}
+console.log(multiply(3,5))
  /*Mission 5:Jess
  Team Member: 
 
@@ -71,7 +90,15 @@ Team Member:
 
 Create a function that will sum up numbers from 0 - 100. 
 */
+function sumUp(){
+for(i=0;i<100;i++){
+    var sum = 0
+    sum += i
+}
+return sum
+}
 
+console.log(sumUp())
 /*Mission 7:Jess
 Team Member:
 
@@ -91,7 +118,18 @@ Team Member:
 
 Create a function that will find the multiples of 3 from 0 - 100 and returns a new array of your results.
 */
-
+function findThree(){
+    var threes = [];
+    var notThrees = [];
+    for(i = 0;i<100;i++){
+        if(i%3 === 0){
+            threes.push(i);
+        }else{
+            notThrees.push(i);
+        }
+    }
+    return threes;
+}
 
 /*Mission 9: Jess
 Team Member: 
@@ -115,7 +153,19 @@ Team Member:
 
 Create a function that will find the multiples of 5 from 0 - 100 and returns a new array of your results.
 */
-
+function findFive(){
+    var fives = [];
+    var notFives = [];
+    for(i = 0;i<100;i++){
+        if(i%5 === 0){
+            fives.push(i);
+        }else{
+            notFives.push(i);
+        }
+    }
+    return fives;
+}
+console.log(findFive())
 
 /*Mission 11:
 Team Member: 
