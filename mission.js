@@ -17,12 +17,28 @@ Create a function that will sum up only even numbers from 0 - 50.
  Create a function that will sum up only odd numbers from 0 - 50.
  */
 
+ function oddSum() {
+     var sum = 0;
+     for (var i = 0; i < 51; i++) {
+         sum+= i;
+     }
+     return sum;
+ }
+
+ console.log(oddSum());
+
 
  /*Mission 3: Jess
  Team Member: 
 
  Create a function that will sum up two numbers.
  */
+
+ function sum(one, two) {
+    return one+two;
+ }
+
+ console.log(sum(4,8));
 
 
  /*Mission 4: Frank
@@ -40,6 +56,16 @@ Create a function that will sum up only even numbers from 0 - 50.
 var myMenu = ['carrot cake', 'brocolli', 'lemon bars', 'spinach', 'oreo cheesecake', 'alfalfa sprouts', 'brownies'];
 
 
+function browseMenu(menu) {
+    var newMenu = [];
+    for (var i = 0; i < menu.length; i+= 2) {
+        newMenu.push(menu[i]);
+    }
+    return newMenu;
+}
+
+console.log(browseMenu(myMenu));
+
 /*Mission 6:Frank
 Team Member: 
 
@@ -50,6 +76,14 @@ Create a function that will sum up numbers from 0 - 100.
 Team Member:
 
 Create a function that will reverse a string.
+
+*/
+
+function reverse(str) {
+    return str.split("").reverse().join("");
+}
+
+console.log(reverse('hello'));
 
 
 /*Mission 8:Frank
@@ -66,6 +100,15 @@ Create a function that will divide the following elements in the array by 2 and 
 */
 var numArr = [10, 20, 30, 40, 50];
 
+function divideArr(arr) {
+    var newArr = [];
+    for (var i = 0; i < arr.length; i++) {
+        newArr.push(arr[i]/2);
+    }
+    return newArr;
+}
+
+console.log(divideArr(numArr));
 
 /*Mission 10: Frank
 Team Member: 
