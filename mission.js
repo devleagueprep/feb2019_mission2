@@ -4,35 +4,35 @@ As always, should you be caught copy and pasta code, the Secretary will disavow 
 
 This repo will self-destruct in five seconds. Good luck!*/
 
-/*Mission 1: 
+/*Mission 1: Frank
 Team Member: 
 
 Create a function that will sum up only even numbers from 0 - 50.
 */
 
 
- /*Mission 2: 
+ /*Mission 2: Jess
  Team Member: 
 
  Create a function that will sum up only odd numbers from 0 - 50.
  */
 
 
- /*Mission 3: 
+ /*Mission 3: Jess
  Team Member: 
 
  Create a function that will sum up two numbers.
  */
 
 
- /*Mission 4: 
+ /*Mission 4: Frank
  Team Member: 
 
  Create a function that will multiply two numbers.
  */
 
 
- /*Mission 5:
+ /*Mission 5:Jess
  Team Member: 
 
  Create a function that will iterate through the given array and returns a new array with only the even indexed items.
@@ -40,26 +40,26 @@ Create a function that will sum up only even numbers from 0 - 50.
 var myMenu = ['carrot cake', 'brocolli', 'lemon bars', 'spinach', 'oreo cheesecake', 'alfalfa sprouts', 'brownies'];
 
 
-/*Mission 6:
+/*Mission 6:Frank
 Team Member: 
 
 Create a function that will sum up numbers from 0 - 100. 
 */
 
-/*Mission 7:
+/*Mission 7:Jess
 Team Member:
 
 Create a function that will reverse a string.
 
 
-/*Mission 8:
+/*Mission 8:Frank
 Team Member: 
 
 Create a function that will find the multiples of 3 from 0 - 100 and returns a new array of your results.
 */
 
 
-/*Mission 9:
+/*Mission 9: Jess
 Team Member: 
 
 Create a function that will divide the following elements in the array by 2 and return a new array of your results.
@@ -67,7 +67,7 @@ Create a function that will divide the following elements in the array by 2 and 
 var numArr = [10, 20, 30, 40, 50];
 
 
-/*Mission 10:
+/*Mission 10: Frank
 Team Member: 
 
 Create a function that will find the multiples of 5 from 0 - 100 and returns a new array of your results.
